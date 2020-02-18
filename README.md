@@ -1,1 +1,1 @@
-# be-fineces-graphql
+# be-finances-graphql
