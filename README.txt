@@ -6,6 +6,16 @@ já esta configurado no package.json só rodar o comando:
 npm start
 
 
+
+/*
+  sobre a endpoint do graphQl, poderia sim trabalhar diretamente com ela
+  porém ficaria exporto todo o banco de dados, por isso foi criado um serviço somente para 
+  a api e garantir a segurança.
+
+  foi usado o graphql-yoga para fazer o intermediario entre api node e prisma
+*/
+
+
 ************* Configurando a aplicação no conteiner do docker *************
 
 primeira coisa a se fazer é criar um arquivo
