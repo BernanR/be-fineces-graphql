@@ -1,0 +1,16 @@
+
+/*DELETAR REGISTROS*/
+mutation{
+  deleteManyUsers (where : {}){ // where vazio
+    count //exibe a contagem de registro
+  }
+}
+
+/*LISTA TODOS OS USUARIOS */
+
+query {
+  users{
+    id
+    name
+  }
+}

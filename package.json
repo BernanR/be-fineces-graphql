@@ -1,0 +1,23 @@
+{
+  "name": "be-finances-api",
+  "version": "1.0.0",
+  "description": "comandos prisma generate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BernanR/be-finances-graphql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BernanR/be-finances-graphql/issues"
+  },
+  "homepage": "https://github.com/BernanR/be-finances-graphql#readme",
+  "dependencies": {
+    "prisma-client-lib": "1.28.3"
+  }
+}
