@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/BernanR/be-finances-graphql#readme",
   "dependencies": {
+    "bcryptjs": "2.4.3",
     "graphql-yoga": "1.17.4",
+    "jsonwebtoken": "8.5.0",
     "prisma-binding": "2.3.16",
     "prisma-client-lib": "1.28.3"
   },
