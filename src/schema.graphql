@@ -3,7 +3,20 @@ scalar Date
 type Query{
   accounts : [ Account! ]!
   categories(operation: Operation): [Category!]!
+  records(
+    """
+      Month and Year, format "MM-YYYY" e.g.: 06-2019
+    """
+    month: String
+    type : Operation,
+    accountIds: [ ID! ],
+    categoriesIds : [ ID! ]
+  ): [ Record! ]
   user: User
+  """
+    Year, Month and Day, format "YYY-MM-DD" e.g.: 2019-06-19
+  """
+  totalBalance(date: Date!): Float!
 }
 
 type Mutation{
